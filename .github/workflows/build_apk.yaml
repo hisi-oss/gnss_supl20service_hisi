@@ -1,0 +1,36 @@
+name: Build APK
+
+env:
+  APKTOOL_VER: 2.7.0
+
+on:
+  push:
+    branches:
+      - ANE-9.1.0.401
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: actions/setup-java@v3
+      with:
+        distribution: 'semeru'
+        java-version: '11'
+
+    - name: Install aapt2
+      run: sudo apt-get update && sudo apt-get install -y aapt
+
+    - uses: robinraju/release-downloader@v1.5
+      with:
+        repository: 'iBotPeaches/Apktool'
+        tag: 'v${{ env.APKTOOL_VER }}'
+        fileName: 'apktool_${{ env.APKTOOL_VER }}.jar'
+
+    - run: java -jar apktool_${{ env.APKTOOL_VER }}.jar b .
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: APK
+        path: dist/gnss_supl20service_hisi.apk
