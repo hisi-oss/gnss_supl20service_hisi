@@ -416,7 +416,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v1, v4, v2, v4, v3}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v1, v4, v2, v4, v3}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -537,7 +537,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v1, v4, v2, v4, v3}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v1, v4, v2, v4, v3}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

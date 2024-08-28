@@ -170,7 +170,7 @@
     .line 78
     array-length v7, v6
 
-    invoke-static {v6, v4, v3, v0, v7}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v6, v4, v3, v0, v7}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 79
     array-length v7, v6

@@ -152,7 +152,7 @@
     .local v4, "bs":[B
     array-length v7, v4
 
-    invoke-static {v4, v5, v1, v0, v7}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v4, v5, v1, v0, v7}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 72
     array-length v7, v4

@@ -189,7 +189,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v3, v5, v1, v2, v4}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v3, v5, v1, v2, v4}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 78
     array-length v4, v3

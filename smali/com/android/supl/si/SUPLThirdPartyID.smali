@@ -211,7 +211,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static {v3, v5, v1, v0, v4}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v3, v5, v1, v0, v4}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 140
     iget-short v3, p0, Lcom/android/supl/si/SUPLThirdPartyID;->ucSize:S

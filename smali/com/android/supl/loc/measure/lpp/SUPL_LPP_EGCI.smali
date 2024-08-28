@@ -114,7 +114,7 @@
 
     iget-byte v5, p0, Lcom/android/supl/loc/measure/lpp/SUPL_LPP_EGCI;->byValidMCCValues:B
 
-    invoke-static {v3, v4, v2, v1, v5}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v3, v4, v2, v1, v5}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 90
     iget-byte v3, p0, Lcom/android/supl/loc/measure/lpp/SUPL_LPP_EGCI;->byValidMCCValues:B
@@ -143,7 +143,7 @@
 
     iget-byte v5, p0, Lcom/android/supl/loc/measure/lpp/SUPL_LPP_EGCI;->byValidMNCValues:B
 
-    invoke-static {v3, v4, v2, v1, v5}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v3, v4, v2, v1, v5}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 95
     iget-byte v3, p0, Lcom/android/supl/loc/measure/lpp/SUPL_LPP_EGCI;->byValidMNCValues:B

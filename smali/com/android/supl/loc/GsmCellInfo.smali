@@ -220,7 +220,7 @@
     .local v10, "bNMRData":[B
     const/4 v11, 0x4
 
-    invoke-static {v10, v5, v0, v8, v11}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v10, v5, v0, v8, v11}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 110
     add-int/lit8 v8, v8, 0x4

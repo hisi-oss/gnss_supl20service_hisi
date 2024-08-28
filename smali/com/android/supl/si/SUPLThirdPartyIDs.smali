@@ -211,7 +211,7 @@
     .local v8, "bThridPartyID":[B
     array-length v9, v8
 
-    invoke-static {v8, v3, v2, v6, v9}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v8, v3, v2, v6, v9}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 91
     array-length v9, v8

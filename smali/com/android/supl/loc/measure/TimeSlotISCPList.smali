@@ -95,7 +95,7 @@
 
     iget-short v5, p0, Lcom/android/supl/loc/measure/TimeSlotISCPList;->ucTimeslotISCPsCnt:S
 
-    invoke-static {v3, v4, v2, v0, v5}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v3, v4, v2, v0, v5}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 64
     iget-short v3, p0, Lcom/android/supl/loc/measure/TimeSlotISCPList;->ucTimeslotISCPsCnt:S

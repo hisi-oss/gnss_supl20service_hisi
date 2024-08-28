@@ -303,7 +303,7 @@
     move v7, v10
 
     .line 155
-    invoke-static {v5, v1, v9, v7, v2}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v5, v1, v9, v7, v2}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 157
     iput-object v9, v6, Lcom/android/supl/nc/SendToServer;->m_bPacket:[B

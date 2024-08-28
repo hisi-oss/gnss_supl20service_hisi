@@ -496,7 +496,7 @@
     .line 195
     iget v5, p0, Lcom/android/supl/si/SUPLSETID;->iNumBytes:I
 
-    invoke-static {v2, v4, v0, v1, v5}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v2, v4, v0, v1, v5}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 196
     iget v4, p0, Lcom/android/supl/si/SUPLSETID;->iNumBytes:I
@@ -532,7 +532,7 @@
     .local v2, "imsi":[B
     iget v5, p0, Lcom/android/supl/si/SUPLSETID;->iNumBytes:I
 
-    invoke-static {v2, v4, v0, v1, v5}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v2, v4, v0, v1, v5}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 157
     iget v4, p0, Lcom/android/supl/si/SUPLSETID;->iNumBytes:I
@@ -625,7 +625,7 @@
     .line 174
     array-length v5, v2
 
-    invoke-static {v2, v4, v0, v1, v5}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v2, v4, v0, v1, v5}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 175
     add-int/lit8 v1, v1, 0xc

@@ -173,7 +173,7 @@
 
     const/4 v6, 0x0
 
-    invoke-static {v3, v6, v2, v0, v5}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v3, v6, v2, v0, v5}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 242
     array-length v5, v3
@@ -404,7 +404,7 @@
     .local v5, "bstAPRTD":[B
     array-length v8, v5
 
-    invoke-static {v5, v6, v2, v0, v8}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v5, v6, v2, v0, v8}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 296
     array-length v8, v5
@@ -585,7 +585,7 @@
     .local v5, "bstReportedLoc":[B
     array-length v7, v5
 
-    invoke-static {v5, v6, v2, v0, v7}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v5, v6, v2, v0, v7}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 339
     array-length v7, v5
@@ -631,7 +631,7 @@
 
     .line 350
     .local v4, "bTemp":[B
-    invoke-static {v2, v6, v4, v6, v1}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v2, v6, v4, v6, v1}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 351
     move-object v2, v4
@@ -692,7 +692,7 @@
     .line 116
     array-length v7, v3
 
-    invoke-static {v3, v5, v2, v0, v7}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v3, v5, v2, v0, v7}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 117
     array-length v7, v3
@@ -921,7 +921,7 @@
     .local v7, "bstAPRTD":[B
     array-length v8, v7
 
-    invoke-static {v7, v5, v2, v0, v8}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v7, v5, v2, v0, v8}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 171
     array-length v8, v7
@@ -1102,7 +1102,7 @@
     .local v4, "bstReportedLoc":[B
     array-length v7, v4
 
-    invoke-static {v4, v5, v2, v0, v7}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v4, v5, v2, v0, v7}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 215
     array-length v7, v4
@@ -1148,7 +1148,7 @@
 
     .line 226
     .local v4, "bTemp":[B
-    invoke-static {v2, v5, v4, v5, v1}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v2, v5, v4, v5, v1}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 227
     move-object v2, v4

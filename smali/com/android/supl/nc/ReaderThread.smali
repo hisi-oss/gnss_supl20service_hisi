@@ -360,7 +360,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {p2, v3, v2, v1, p1}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {p2, v3, v2, v1, p1}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 197
     add-int/2addr v1, p1
@@ -655,7 +655,7 @@
     .line 109
     iget-object v4, v3, Lcom/android/supl/commprocessor/FromServer;->m_bPacket:[B
 
-    invoke-static {v0, v5, v4, v5, v2}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v0, v5, v4, v5, v2}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     goto :goto_1
 

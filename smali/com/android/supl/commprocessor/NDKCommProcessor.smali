@@ -484,7 +484,7 @@
 
     array-length v4, v4
 
-    invoke-static {v0, v1, v2, v3, v4}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 321
     iget v0, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -722,7 +722,7 @@
 
     sub-int/2addr v7, v0
 
-    invoke-static {v5, v0, v6, v1, v7}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v5, v0, v6, v1, v7}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 723
     iget v5, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -978,7 +978,7 @@
 
     sub-int/2addr v8, v0
 
-    invoke-static {v6, v0, v7, v1, v8}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v6, v0, v7, v1, v8}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 646
     iget v6, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1019,7 +1019,7 @@
 
     sub-int/2addr v7, v0
 
-    invoke-static {v5, v0, v6, v1, v7}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v5, v0, v6, v1, v7}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 586
     iget v5, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1081,7 +1081,7 @@
 
     sub-int/2addr v9, v0
 
-    invoke-static {v7, v0, v8, v1, v9}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v7, v0, v8, v1, v9}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 568
     iget v7, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1148,7 +1148,7 @@
 
     sub-int/2addr v9, v0
 
-    invoke-static {v7, v0, v8, v1, v9}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v7, v0, v8, v1, v9}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 549
     iget v7, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1212,7 +1212,7 @@
 
     sub-int/2addr v9, v0
 
-    invoke-static {v7, v0, v8, v1, v9}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v7, v0, v8, v1, v9}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 531
     iget v7, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1273,7 +1273,7 @@
 
     sub-int/2addr v8, v0
 
-    invoke-static {v6, v0, v7, v1, v8}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v6, v0, v7, v1, v8}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 511
     iget v6, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1333,7 +1333,7 @@
 
     sub-int/2addr v8, v0
 
-    invoke-static {v6, v0, v7, v1, v8}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v6, v0, v7, v1, v8}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 494
     iget v6, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1401,7 +1401,7 @@
 
     sub-int/2addr v9, v0
 
-    invoke-static {v7, v0, v8, v1, v9}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v7, v0, v8, v1, v9}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 476
     iget v7, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1550,7 +1550,7 @@
 
     sub-int/2addr v10, v0
 
-    invoke-static {v8, v0, v9, v1, v10}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v8, v0, v9, v1, v10}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 440
     iget v8, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1594,7 +1594,7 @@
 
     sub-int/2addr v8, v0
 
-    invoke-static {v6, v0, v7, v1, v8}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v6, v0, v7, v1, v8}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 447
     iget v6, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1668,7 +1668,7 @@
 
     sub-int/2addr v8, v0
 
-    invoke-static {v6, v0, v7, v1, v8}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v6, v0, v7, v1, v8}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 384
     iget v6, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1770,7 +1770,7 @@
 
     sub-int/2addr v7, v0
 
-    invoke-static {v5, v0, v6, v1, v7}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v5, v0, v6, v1, v7}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 578
     iget v5, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1803,7 +1803,7 @@
 
     sub-int/2addr v7, v0
 
-    invoke-static {v5, v0, v6, v1, v7}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v5, v0, v6, v1, v7}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 402
     iget v5, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1843,7 +1843,7 @@
 
     sub-int/2addr v7, v0
 
-    invoke-static {v5, v0, v6, v1, v7}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v5, v0, v6, v1, v7}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 674
     iget v5, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
@@ -1981,7 +1981,7 @@
 
     array-length v9, v5
 
-    invoke-static {v5, v1, v8, v7, v9}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v5, v1, v8, v7, v9}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 714
     invoke-virtual {p0, v6}, Lcom/android/supl/commprocessor/NDKCommProcessor;->sendServer(Lcom/android/supl/nc/SendToServer;)V
@@ -2088,7 +2088,7 @@
 
     sub-int/2addr v8, v0
 
-    invoke-static {v6, v0, v7, v1, v8}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {v6, v0, v7, v1, v8}, Lcom/android/altair/CopyArrayMod;->CopyArray([BI[BII)V
 
     .line 666
     iget v6, p0, Lcom/android/supl/commprocessor/NDKCommProcessor;->iLastWritePostion:I
